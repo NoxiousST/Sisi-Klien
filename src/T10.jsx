@@ -1,5 +1,3 @@
-import {Button} from "@/components/ui/button.jsx";
-import {Link} from "react-router-dom";
 import {useEffect, useState} from "react";
 
 export default function T10() {
