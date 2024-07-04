@@ -1,5 +1,3 @@
-import {Button} from "@/components/ui/button.jsx";
-import {Link} from "react-router-dom";
 import {useEffect, useState} from "react";
 
 export default function T11() {
@@ -22,11 +20,6 @@ export default function T11() {
                     <code>Daniel Kristian Jatmiko</code>
                     <code>A11.2021.13429</code>
                 </div>
-                <Button variant={"outline"} size={"sm"} asChild>
-                    <Link to={"/tugas5"}>
-                        ke Tugas-5
-                    </Link>
-                </Button>
                 <div>
                     {users.map((user) => (
                         <div key={user.id} className={"flex gap-4 items-center"}>

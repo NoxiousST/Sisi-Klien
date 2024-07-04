@@ -12,7 +12,9 @@ export default function T7() {
                     <code>Daniel Kristian Jatmiko</code>
                     <code>A11.2021.13429</code>
                 </div>
-                <Button onClick={() => console.log("Hello World!")} variant={"outline"} size={"sm"}>Hello World!</Button>
+                <Button onClick={() => console.log("Hello World!")} variant={"outline"} size={"sm"}>
+                    Hello World!
+                </Button>
             </div>
         </div>
     )
