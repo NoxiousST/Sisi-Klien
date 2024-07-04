@@ -17,6 +17,7 @@ import T13 from "@/T13.jsx";
 const router = createBrowserRouter(
     createRoutesFromElements(
         <Route path="/" element={<Layout/>}>
+            <Route index element={<T5/>}/>
             <Route path="tugas5" element={<T5/>}/>
             <Route path="tugas6" element={<T6/>}/>
             <Route path="tugas7" element={<T7/>}/>
