@@ -2,7 +2,7 @@ import {Button} from "@/components/ui/button.jsx";
 import {Link} from "react-router-dom";
 import {useEffect, useState} from "react";
 
-export default function T10() {
+export default function T11() {
     const [users, setUsers] = useState([]);
 
     useEffect(() => {
@@ -14,7 +14,10 @@ export default function T10() {
     return (
         <div className={"w-screen h-screen flex items-center justify-center bg-gray-100"}>
             <div className={"grid w-[30rem] p-4 gap-2 bg-white shadow-lg rounded-lg"}>
-                <div className={"text-2xl font-semibold pb-4"}>Tugas 10</div>
+                <div className={"flex items-center pb-4"}>
+                    <div className={"text-2xl font-semibold flex-grow"}>Tugas 11</div>
+                    <div className={"text-gray-400/60 text-2xl font-bold"}>Hooks</div>
+                </div>
                 <div className={"grid bg-gray-100 p-2 rounded-lg"}>
                     <code>Daniel Kristian Jatmiko</code>
                     <code>A11.2021.13429</code>
